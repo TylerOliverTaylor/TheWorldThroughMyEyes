@@ -1,0 +1,20 @@
+.photocontainer{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width:100%;
+
+    img{
+        height: 350px;
+        width: 350px;
+        box-shadow: 0px 0px 20px lightgrey;
+        border-radius: 15%;
+        margin: 3rem
+      }
+      h3{
+        font-size: 2rem;
+        color:white;
+      }
+}
